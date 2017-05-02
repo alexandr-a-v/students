@@ -1,1 +1,217 @@
-.
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100%;
+    height: 813px;
+    background-image: url(../img/photo-header.jpg);
+}
+.header {
+    position: relative;
+    top: 225px;
+    width: 50%;
+    margin: 0px auto;
+}
+.header h2 {
+    text-align: center;
+    font-size: 60px;
+    color: rgb(40, 40, 40);
+}
+.header img {
+    margin-left: 324px;
+    padding-top: 40px;
+}
+.header button {
+    width: 190px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 109, 109);
+    margin-top: 30px;
+    margin-left: 260px;
+    border-radius: 3px;
+}
+.header p {
+    text-align: center;
+    font-size: 14px;
+    color: rgb(40, 40, 40);
+    padding-top: 20px;
+}
+main {
+    width: 100%;
+    height: 100%;
+}
+.main {
+    height: 725px;
+}
+.left {
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 725px;
+}
+.left h3 {
+    font-size: 16px;
+    color: rgb(255, 109, 109);
+    text-transform: uppercase;
+    padding-top: 190px;
+    padding-left: 150px;
+}
+.left h2 {
+    font-size: 40px;
+    line-height: 50px;
+    color: rgb(40, 40, 40);
+    padding-left: 150px;
+    padding-right: 190px;
+}
+.left p {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(40, 40, 40);
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 200px;
+}
+.right {
+    background-color: rgb(236, 236, 236);
+    height: 725px;
+}
+.grey {
+    height: 675px;
+    background-image: url(../img/background-section.jpg);
+}
+.grey h3 {
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: rgb(255, 109, 109);
+    padding-top: 135px;
+}
+.grey h2 {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(40, 40, 40);
+}
+.container {
+    display: inline-block;
+    width: 20%;
+    padding-left: 150px;
+    padding-top: 85px;
+    text-align: center;
+}
+.container h5 {
+    font-size: 22px;
+    color: rgb(40, 40, 40);
+}
+.container p {
+    font-size: 16px;
+    line-height: 26px;
+    color: rgb(40, 40, 40);
+}
+.design {
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+}
+.group {
+    height: 645px;
+}
+.features {
+    height: 755px;
+    background-color: rgb(246, 245, 243);
+}
+.form {
+    height: 465px;
+    background-color: rgb(50, 57, 105);
+}
+.form h3 {
+    color: rgb(255, 109, 109);
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 95px;
+}
+.form h4 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+}
+.form h5 {
+    color: rgb(227, 226, 228);
+    text-align: right;
+    font-size: 16px;
+    padding-right: 180px;
+    padding-top: 30px;
+}
+.form input {
+    width: 235px;
+    height: 48px;
+    padding-left: 25px;
+    background-color: rgb(70, 76, 119);
+    color: rgb(246, 245, 243);
+    margin-top: 40px;
+    margin-left: 65px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-image: initial;
+    border-radius: 3px;
+}
+.form button {
+    width: 260px;
+    height: 50px;
+    background-color: rgb(255, 109, 109);
+    color: rgb(246, 245, 243);
+    border-radius: 3px;
+	margin-left: 30px;
+}
+.form p {
+    color: rgb(171, 172, 185);
+    text-align: center;
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+.footer {
+    background-color: rgb(255, 255, 255);
+    height: 330px;
+}
+.logo {
+    padding-top: 84px;
+    padding-left: 145px;
+    width: 25%;
+    float: left;
+}
+h1 {
+    font-size: 27px;
+    color: rgb(44, 47, 73);
+    line-height: 34px;
+}
+p {
+    font-size: 14px;
+    line-height: 26px;
+    color: rgb(40, 40, 40);
+}
+.nav {
+    padding-top: 95px;
+    float: left;
+    width: 15%;
+}
+h3 {
+    font-size: 22px;
+    line-height: 50px;
+    color: rgb(40, 40, 40);
+}
+.nav p {
+    font-size: 14px;
+    line-height: 30px;
+    color: rgb(40, 40, 40);
+}
+.nav input {
+    width: 215px;
+    height: 50px;
+    padding-left: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(184, 184, 191);
+    border-image: initial;
+    border-radius: 2px;
+}
